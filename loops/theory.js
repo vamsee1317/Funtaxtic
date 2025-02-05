@@ -13,7 +13,6 @@
 // git clone
 // code opertaions
 // git add
-// git commit
 // git push
 
 // Loops :
