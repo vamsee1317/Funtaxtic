@@ -33,4 +33,4 @@
                 // self invoking functions or IIFE
                 // Higher order functions
             
-// Examples or scenarios :  
+// Examples or scenarios :
