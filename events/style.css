@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grandParent{
+    width: 500px;
+    height: 500px;
+    background-color: #eacfcf;
+    position: relative;
+}
+
+.parent{
+    width: 350px;
+    height: 350px;
+    background-color: #c5c5c5;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: #0e0e0e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
